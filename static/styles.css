@@ -1,0 +1,76 @@
+body{
+	font-family: Arial, Helvetica,sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Website Title */
+.container{
+    background-color: #f9f9f9;
+    padding: 40px;
+}
+
+.container h2{
+    margin: 0;
+}
+
+.container span{
+    color: #ff0000;
+}
+
+.description p{
+    font-style: italic;
+    font-size: 14px;
+    margin: 3px 0 0;
+}
+
+/* Text Area */
+.ml-container{
+    margin: 30px 0;
+}
+
+.message-box{
+    margin-bottom: 20px;
+}
+
+/* Predict Button */
+.my-cta-button{
+    background: #f9f9f9;
+    border: 2px solid #000000;
+    border-radius: 1000px;
+    box-shadow: 3px 3px #8c8c8c;
+    padding: 10px 36px;
+    color: #000000;
+    display: inline-block;
+    font: italic bold 20px/1 "Calibri", sans-serif;
+    text-align: center;
+}
+
+.my-cta-button:hover{
+    color: #ff0000;
+    border: 2px solid #ff0000;
+}
+
+.my-cta-button:active{
+    box-shadow: 0 0;
+}
+
+/* Footer */
+footer{
+    font-size: 14px;
+}
+
+/* Result */
+.results{
+    padding: 30px 0 0;
+}
+
+.danger{
+    color: #ff0000;
+}
+
+.safe{
+    color: green;
+}
