@@ -57,6 +57,16 @@ body{
     box-shadow: 0 0;
 }
 
+/* Contact */
+.contact-icon{
+	color: #000000;
+	padding: 15px 7px;
+}
+
+.contact-icon:hover{
+	color: #8c8c8c;
+}
+
 /* Footer */
 footer{
     font-size: 14px;
