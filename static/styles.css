@@ -1,18 +1,40 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+
 body{
 	font-family: Arial, Helvetica,sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
     width: 100%;
+	height: 100%;
+	display: flex;
+  	flex-direction: column;
 }
 
 /* Website Title */
 .container{
-    background-color: #f9f9f9;
-    padding: 40px;
+	padding: 30px;
+	position: relative;
+	background: linear-gradient(45deg, #ffffff, #ffffff, #f9f9f9, #eeeeee, #e0e4e1, #d7e1ec);
+	background-size: 500% 500%;
+	animation: change-gradient 10s ease-in-out infinite;
+}
+@keyframes change-gradient {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
 }
 
-.container h2{
+.container-heading{
     margin: 0;
 }
 
@@ -29,6 +51,7 @@ body{
 /* Text Area */
 .ml-container{
     margin: 30px 0;
+	flex: 1 0 auto;
 }
 
 .message-box{
@@ -58,23 +81,36 @@ body{
 }
 
 /* Contact */
+
+/* Footer */
+.footer{
+    font-size: 14px;
+	padding: 20px;
+	flex-shrink: 0;
+	position: relative;
+	background: linear-gradient(45deg, #ffffff, #ffffff, #f9f9f9, #eeeeee, #e0e4e1, #d7e1ec);
+	background-size: 500% 500%;
+	animation: change-gradient 10s ease-in-out infinite;
+}
+
 .contact-icon{
 	color: #000000;
-	padding: 15px 7px;
+	padding: 7px;
 }
+
 
 .contact-icon:hover{
 	color: #8c8c8c;
 }
 
-/* Footer */
-footer{
-    font-size: 14px;
+.footer-description{
+	margin: 0;
+	font-size: 12px;
 }
-
 /* Result */
 .results{
     padding: 30px 0 0;
+	flex: 1 0 auto;
 }
 
 .danger{
