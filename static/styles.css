@@ -80,7 +80,6 @@ body{
     box-shadow: 0 0;
 }
 
-/* Contact */
 
 /* Footer */
 .footer{
@@ -107,6 +106,7 @@ body{
 	margin: 0;
 	font-size: 12px;
 }
+
 /* Result */
 .results{
     padding: 30px 0 0;
@@ -119,4 +119,9 @@ body{
 
 .safe{
     color: green;
+}
+
+.gif{
+	width: 30%;
+	padding: 20px 0;
 }
